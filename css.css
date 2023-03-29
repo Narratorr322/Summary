@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    color: #0f141e;
+    background: #f1f1f1;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0.25);
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+    
+
+.info-text p {
+    font-size: initial;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        text-align: center;
+    }
+    /* .avatar {
+        display: block; */
+        
+    }
+
+.card-1 {
+    background: #e9fde8;
+    padding-left: 10px;
+    color: dark;
+    border-radius: 24px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.card-2 {
+    background: #fbe5e3;
+    padding-left: 10px;
+    color: dark;
+    border-radius: 24px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.button-1 {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.button-1:hover {
+    opacity: .8;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+.form-0 {
+    text-align: center;
+}
+
+.form-group label {
+    display: flex;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    /* width: 50%; */
+    /* margin-bottom: 10px;
+    margin-right: 20px;
+    width: calc(50%-20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-0 {
+        display: grid;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.form-row .form-group {
+    display: inline-block;
+}
+
+.form-group textarea,
+.form-group input {
+    width: 100%;
+    box-sizing:  border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    font-family: inherit;
+
+
+}
